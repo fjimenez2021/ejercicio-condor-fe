@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prueba Capacitaci&tilde;n Condor Labs</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-logo">
+            <img src="img/demo.png" alt="Logo demo" width="100px" height="55px" />
+        </div>
+        <div class="header-text">
+            <p>Demo capacitación </p>
+        </div>
+    </div>
+    <div class="nav">
+        <ul class="menu">
+            <li>
+                <a href="#">Productos</a>
+            </li>
+            <li>
+                <a href="#">Clientes</a>
+            </li>
+            <li>
+                <a href="#">Facturas</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="form">
+            <div class="formTitle">
+                <span>Registro de productos</span>
+            </div>
+            <div class="formBody">
+                <form style="padding: 5px;" id="formProducto">
+                    <div>
+                        <div>
+                            <span>Referencia:</span>
+                        </div>
+                        <div>
+                            <input id="referencia" type="text" class="input" autofocus>
+                        </div>
+                    </div>
+                    &nbsp;
+                    <div>
+                        <div>
+                            <span>Nombre:</span>
+                        </div>
+                        <div>
+                            <input id="nombre" type="text" class="input">
+                        </div>
+                    </div>
+                    &nbsp;
+                    <div>
+                        <div>
+                            <span>Precio:</span>
+                        </div>
+                        <div>
+                            <input id="precio" type="text" class="input">
+                        </div>
+                    </div>
+                    &nbsp;
+                    <div style="text-align: center;">
+                        <input type="button" id="btSave" class="btn" value="Guardar" />&nbsp;
+                        <input type="reset" id="btCancelar" class="btn" value="Cancelar" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div>
+            <table id="table" class="table">
+                <thead>
+                    <tr>
+                        <th>REFERENCIA</th>
+                        <th>NOMBRE</th>
+                        <th>PRECIO</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

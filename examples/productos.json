@@ -1,0 +1,17 @@
+[
+    {
+        "referencia": "0001",
+        "nombre": "Computador HP",
+        "precio": 2000000
+    },
+    {
+        "referencia": "0002",
+        "nombre": "Teclado Genius",
+        "precio": 35000
+    },
+    {
+        "referencia": "0003",
+        "nombre": "Mouse Toshiba",
+        "precio": 5000
+    }
+]

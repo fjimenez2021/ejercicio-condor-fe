@@ -1,0 +1,134 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #eae0f5;*/
+}
+
+.header {
+    padding-left: 5px;
+    height:50px;
+    border-bottom: 1px solid gray;
+    background-color: #026aa7;
+}
+
+.header-logo {
+    position: absolute;
+    width: 120px;
+}
+
+.header-text {
+    padding-top: 20px;
+    margin-left: 125px;
+}
+
+.nav {
+    top: 51px;
+    width: 300px;
+    height: 100vh;
+    border-right: 1px solid gray;
+    background-color: #f0f2f5;
+    position:absolute;
+}
+
+.menu {
+    background-color: #dbdddf;
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu > li{
+    padding: 5px;
+    background-color: #e4f0f6;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.menu > li > a{
+    text-decoration: none;
+    color: #0079bf;
+}
+
+.menu > li:hover{
+    background-color: rgb(165, 181, 190);
+}
+
+.content {        
+    margin-left: 301px;
+    top:51px;
+    padding: 10px;
+    height: 100vh;
+    position: relative;
+}
+
+.form {
+    margin: 15%;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.formTitle {
+    text-align: center;
+    background-color: #f0f2f5;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.formBody {
+    padding: 10px;
+    border-top: 0;
+    border: 1px solid gray;
+    font-size: 12px;
+}
+
+.input {
+    width: 100%;
+}
+
+.btn {
+    background-color: #e4f0f6;
+    width: 8em;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: .25em;
+    padding: .375rem .75rem;
+    color: #0079bf;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(165, 181, 190);
+}
+
+.table, th, td {
+    width: 70%;
+    border: 0.1em solid gray;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table th {
+    background-color: #f0f2f5;
+    padding: 5px;
+}
+
+.table td {
+    padding: 2px;
+    font-size: 12px;
+}
+
+.table td, .table th { 
+    width:20%; 
+}
+
+.table td + td, .table th + th { 
+    width:60%; 
+}
+
+.table td + td + td, .table th + th + th { 
+    width:20%; 
+}
